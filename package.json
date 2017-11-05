@@ -1,0 +1,11 @@
+{
+  "name": "motion-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "paper": "^0.11.5",
+    "svgjs": "^2.6.2"
+  }
+}
