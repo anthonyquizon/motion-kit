@@ -8,6 +8,6 @@ const server = connect();
 server.use(static(__dirname + '/'));
 server.listen(3000);
 
-lrserver.watch(__dirname + "/examples");
+lrserver.watch(__dirname + "/output");
 
 console.log('listening on localhost:3000');

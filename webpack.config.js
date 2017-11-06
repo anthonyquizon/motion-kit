@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    hello: './output/examples/hello/main.js',
+    hello: './output.mo/examples/hello/main.js',
   },
   output: {
     filename: '[name].dist.js',
