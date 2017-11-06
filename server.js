@@ -5,10 +5,9 @@ const static = require('serve-static');
 const lrserver = livereload.createServer();
 const server = connect();
 
-server.use(static(__dirname + '/../../examples'));
-server.use(static(__dirname + '/../../node_modules'));
+server.use(static(__dirname + '/'));
 server.listen(3000);
 
-lrserver.watch(__dirname + "/../../examples");
+lrserver.watch(__dirname + "/examples");
 
 console.log('listening on localhost:3000');
