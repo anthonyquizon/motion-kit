@@ -9,15 +9,12 @@
     "server": "node ./server.js"
   },
   "dependencies": {
-    "animejs": "^2.2.0",
     "connect": "^3.6.5",
     "livereload": "^0.6.3",
-    "mojs": "^0.2.0",
+    "mo-js": "^0.288.2",
     "mojs-curve-editor": "^1.5.0",
     "mojs-player": "^0.43.16",
-    "paper": "^0.11.5",
     "serve-static": "^1.13.1",
-    "svgjs": "^2.6.2",
     "webpack": "^3.8.1"
   }
 }
